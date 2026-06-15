@@ -1,5 +1,5 @@
 ---
-title: "Hebrew and English Interlinear Old Testament"
+title: "Hebrew and English Trilinear Old Testament"
 description: "The Hebrew TaNaKh cross compiled with the Isaac Leeser TaNaKh. Both texts are public domain."
 pubDate: 06-08-2026
 toc: True
