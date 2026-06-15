@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Keep the lights on"
+	description="Help support the project"
+	pubDate={new Date('April 26 2026')}
+>	
+    <p>
+		Confused Catholic is meant to be a landing place for people with real doubts and questions.
+        This site and these resources are free for anyone who uses them. This is not easy work. It's real
+        and it's tedious. If this site resonates with you, please subscribe to the Confused Catholic
+        newsletter.
+	</p>
+	<p>
+		I am not going to lie to you. There is no perks package or subscriber benefit.
+        I am 100% committed to keeping this site free of AI-generated content and even AI-generated code. Paid subscribers
+        make this possible.
+	</p>
+
+    <div class="support-ui">
+
+        <button onclick="document.getElementById('project-support').hidden = !document.getElementById('project-support').hidden">Support the project</button>
+    
+        <div id="project-support" hidden>
+            <h3>Subscribe via Substack</h3>
+            <iframe src="https://theconfusedcatholic.substack.com/embed" height="150" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+    
+            <h3>Prefer crypto?</h3>
+            <ul>
+                <li>Bitcoin: <a href="bitcoin:bc1qxuf8ehs7c0nkh5pq0phenn0tx2c44r2slfupwt">bc1qxuf8ehs7c0nkh5pq0phenn0tx2c44r2slfupwt</a></li>
+                <li>Ycash: <a href="ycash:s1hLN72FPGo5gu68BM9tXm1gNLsUXCnjotX">s1hLN72FPGo5gu68BM9tXm1gNLsUXCnjotX</a></li>
+            </ul>
+    
+        </div>
+    </div>
+
+</Layout>
+
+<style>
+    .support-ui {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    button {
+        background-color: rgb(230, 145, 145);
+        font-size: 20px;
+        border-radius: 5px;
+    }
+</style>

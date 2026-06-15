@@ -1,0 +1,53 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Scripture, Theology and Christian life in the modern world</h1>
+			<p>
+				Everyone becomes a confused catholic at one point or another. In 2025, after decades away from the Church,
+				I returned. Before returning, I did what many of us do and began to look stuff up on the internet
+				<strong>-- what a time to be alive!</strong>
+			</p>
+			<p>
+
+				At that point, I typed in <code>confused catholic</code> into a search engine. The results were mainly some letter
+				I'd never heard of.
+			</p>
+			<p>
+				As time went on, I learned that this letter was a little more important and upsetting than
+				I had initially gleaned. It's called: <a href="https://www.fisheaters.com/srpdf/anopenlettertoconfusedcatholics.pdf">
+				"An open letter to confused Catholics."</a> Its author is none other than deceased SSPX Bishop, <a href="https://en.wikipedia.org/wiki/Marcel_Lefebvre">
+				Marcel Lefebvre</a> This man is the architect of the schismatic traditionalism we see in Catholicism today.
+			</p>
+			<p>
+				As writer, I occasionally check SEO (search engine optimization) rankings for certain terms. For an entire year,
+				Lefebvre's letter still continued to show up at the number one rank. I find this highly troubling. I've already been
+				writing about my faith for quite some time -- and I write technical, SEO content and thought leadership by trade.
+
+				The goal of this site is pretty simple.
+				
+				<strong>When a lapsed and confused Catholic explores their faith online, I want them to find something positive.
+					We don't need more Lefebvre, he's done enough damage. We need resources.
+				</strong>
+			</p>
+			<p>
+				Protestants talk about Sola Scriptura, that Scripture alone is the only authority in religion. Personally,
+				I don't believe in Sola Scriptura -- I am a Catholic after all. However, I do believe that Aperta Scriptura
+				(open Scripture) -- is something the world desperately needs.
+			</p>
+			
+		</main>
+		<Footer />
+	</body>
+</html>
