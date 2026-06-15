@@ -95,32 +95,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 					
 					<script>
-
-						import he2paleo from "he2paleo";
-						const RTL_SCRIPTS = /[\u0590-\u05FF\uFB1D-\uFB4F]/;
 						const prose = document.querySelector(".prose");
-						
-						
-						if (prose && RTL_SCRIPTS.test(prose.textContent)) {
-							(prose as HTMLElement).style.textAlign = "right";
-						}
-						
-						document.querySelectorAll(".prose p").forEach(p => {
-
-							if (p.querySelector("a")) {
-								return;
-							}
-							const stripped = p.textContent.replace(/[\u0591-\u05C7]/g, "");
-							const paleoContent = he2paleo(stripped);
-							const paleoHolder = document.createElement("p");
-							paleoHolder.textContent = paleoContent;
-							paleoHolder.setAttribute("dir", "rtl");
-							if (RTL_SCRIPTS.test(p.textContent)) {
-								p.setAttribute("dir", "rtl");
-								p.before(paleoHolder);
-							}
-						});
-
+						(prose as HTMLElement).style.textAlign = "right";
+						(prose as HTMLElement).style.justifyContent = "right";
 					</script>
 				</div>
 			</article>
