@@ -99,10 +99,10 @@ const posts = (await getCollection('blog')).sort(
 										<Image width={720} height={360} src={post.data.heroImage} alt="" />
 									)}
 									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
+									
 									<p>{post.data.description}</p>
-										<FormattedDate date={post.data.pubDate} />
-									</p>
+									<p class="date"><FormattedDate date={post.data.pubDate} /></p>
+									
 									<p>{post.data.author}</p>
 								</a>
 							</li>
