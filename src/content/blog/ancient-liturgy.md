@@ -13,7 +13,7 @@ tags:
   - Exodus
   - Leviticus
   - Mosaic Law
-heroImage: "https://raw.githubusercontent.com/Confused-Catholic/images/main/Tissot_The_Ark_of_the_Covenant.jpg"
+heroImage: "https://github.com/Confused-Catholic/images/raw/main/Tissot_The_Ark_of_the_Covenant.jpg"
 ---
 
 ## It's not Novus Ordo. It's not the TLM. It's not Divine Liturgy either.
