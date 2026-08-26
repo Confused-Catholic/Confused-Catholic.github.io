@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
@@ -8,7 +9,20 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.props;
+
+const allPosts = await getCollection('blog');
+
+const related = allPosts
+	.filter((p) => p.data.title !== title)
+	.map((p) => ({
+		post: p,
+		score: p.data.tags?.filter((t) => tags?.includes(t)).length ?? 0
+	}))
+	.filter((r) => r.score > 0)
+	.sort((a, b) => b.score - a.score)
+	.slice(0, 4)
+	.map((r) => r.post);
 ---
 
 <html lang="en">
@@ -84,6 +98,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 				</div>
 			</article>
+			{
+				related.length > 0 && (
+					<aside class="related">
+						<h2>Related Articles</h2>
+						<ul>
+							{
+								related.map((p) => (
+									<li>
+										<a href={`/blog/${p.id}/`}>{p.data.title}</a>
+									</li>
+								))
+							}
+						</ul>
+					</aside>
+				)
+			}
 		</main>
 		<Footer />
 	</body>
