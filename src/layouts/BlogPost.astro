@@ -102,15 +102,16 @@ const related = allPosts
 				related.length > 0 && (
 					<aside class="related">
 						<h2>Related Articles</h2>
-						<ul>
+						<div>
 							{
 								related.map((p) => (
-									<li>
-										<a href={`/blog/${p.id}/`}>{p.data.title}</a>
-									</li>
+									<div>
+										<h4><a href={`/blog/${p.id}/`}>{p.data.title}</a></h4>
+										<em>{p.data.description}</em>
+									</div>
 								))
 							}
-						</ul>
+						</div>
 					</aside>
 				)
 			}
