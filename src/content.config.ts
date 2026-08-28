@@ -20,7 +20,7 @@ const blog = defineCollection({
 });
 
 const bible = defineCollection({
-	// Load Markdown and MDX files in the `src/content/blog/` directory.
+	// Load Markdown and MDX files in the `src/content/bibles/` directory.
 	loader: glob({ base: './src/content/bibles', pattern: '**/*.{md,mdx}' }),
 	// Type-check frontmatter using a schema
 	schema: ({ image }) =>
@@ -34,4 +34,23 @@ const bible = defineCollection({
 		}),
 });
 
-export const collections = { blog, bible };
+const patristic = defineCollection({
+	// Load Markdown and MDX files in the `src/content/patristics/` directory.
+	loader: glob({ base: './src/content/patristics', pattern: '**/*.{md,mdx}' }),
+	// Type-check frontmatter using a schema
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			author: z.string(),
+			authorImage: z.optional(image()),
+			homilyNumber: z.number(),
+			translator: z.string(),
+			// Transform string to Date object
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			heroImage: z.optional(image()),
+		}),
+});
+
+export const collections = { blog, bible, patristic };
