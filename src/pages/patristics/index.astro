@@ -33,6 +33,7 @@ for (const author in postsByAuthor) {
 			main {
 				width: 960px;
 			}
+			
 			ul {
 				display: flex;
 				flex-wrap: wrap;
@@ -75,6 +76,11 @@ for (const author in postsByAuthor) {
 				margin: 0;
 				color: rgb(var(--gray));
 			}
+			.author-image {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
 			ul li a:hover h4,
 			ul li a:hover .date {
 				color: rgb(var(--accent));
@@ -102,12 +108,15 @@ for (const author in postsByAuthor) {
 	<body>
 		<Header />
 		<main>
+			<h1>Patristics</h1>
 			{Object.entries(postsByAuthor).map(([author, authorPosts]) => (
 				<section>
 					<h2>{author}</h2>
 					{
 						author === "John Chrysostom" && (
-							<img width="360" height="540" src="/john-chrysostom.png" alt="Icon of St. John Chrysostom" />
+							<div class="author-image">
+								<img width="360" height="540" src="/john-chrysostom.jpg" alt="Icon of St. John Chrysostom" />
+							</div>
 						)
 					}
 					<ul>
