@@ -105,6 +105,11 @@ for (const author in postsByAuthor) {
 			{Object.entries(postsByAuthor).map(([author, authorPosts]) => (
 				<section>
 					<h2>{author}</h2>
+					{
+						author === "John Chrysostom" && (
+							<img width="360" height="540" src="/john-chrysostom.png" alt="Icon of St. John Chrysostom" />
+						)
+					}
 					<ul>
 						{ authorPosts.map((post) => (
 							<li>
