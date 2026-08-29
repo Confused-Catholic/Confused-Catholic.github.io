@@ -1,0 +1,19 @@
+# Confused Catholic
+
+> This site is host to a variety of resources for Christians who believe in Sacramental faith and Apostolic succession.
+
+## Blog
+
+- hosted at [https://www.confusedcatholic.com/blog](https://www.confusedcatholic.com/blog)
+- reflections, meditations and essays on the Catholic faith, Sacraments, and Apostolic Christianity
+
+## Interlinear Bibles
+
+- hosted at [https://www.confusedcatholic.com/bibles](https://www.confusedcatholic.com/bibles)
+- Free interlinear Bibles in [Latin/English](https://www.confusedcatholic.com/bibles/clementine-vulgate-douay-rheims/), [Greek/English](https://www.confusedcatholic.com/bibles/greek-patriarchal-kjv-interlinear/), and [Paleo-Hebrew/Hebrew/English](https://www.confusedcatholic.com/bibles/hebrew-tanakh-leeser-translation/)
+- Each page is one full interlinear text from start to finish. For instance, the entire Latin/English Bible is served once, on a single page, with scrolling functionality and tables of contents that allow the user to navigate intuitively with no need for additional page load
+
+## Patristics
+
+- hosted at [https://www.confusedcatholic.com/patristics](https://www.confusedcatholic.com/patristics)
+- an growing curation of patristic texts
