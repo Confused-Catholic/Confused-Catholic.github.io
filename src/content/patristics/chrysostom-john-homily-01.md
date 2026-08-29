@@ -5,7 +5,7 @@ author: "John Chrysostom"
 homilyNumber: 1
 translator: "Philip Schaff"
 pubDate: 2026-08-28
-#heroImage: "/john-chrysostom.jpg"
+heroImage: "www.confusedcatholic.com/john-chrysostom.jpg"
 # authorImage, updatedDate, heroImage all optional — skip for now
 ---
 
