@@ -76,7 +76,7 @@ for (const author in postsByAuthor) {
 				margin: 0;
 				color: rgb(var(--gray));
 			}
-			.author-image {
+			.author-container {
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -111,21 +111,21 @@ for (const author in postsByAuthor) {
 			<h1>Patristics</h1>
 			{Object.entries(postsByAuthor).map(([author, authorPosts]) => (
 				<section>
-					<h2>{author}</h2>
-					{
-						author === "John Chrysostom" && (
-							<div class="author-image">
+					<div class="author-container">
+						<h2>{author}</h2>
+						{
+							author === "John Chrysostom" && (
 								<img width="360" height="540" src="/john-chrysostom.jpg" alt="Icon of St. John Chrysostom" />
-							</div>
-						)
-					}
-					<ul>
-						{ authorPosts.map((post) => (
-							<li>
-								<a href={`/patristics/${post.id}/`}>{post.data.title}</a>
-							</li>
-						))}
-					</ul>
+							)
+						}
+						<ul>
+							{ authorPosts.map((post) => (
+								<li>
+									<a href={`/patristics/${post.id}/`}>{post.data.title}</a>
+								</li>
+							))}
+						</ul>
+					</div>
 					
 				</section>
 			) )}
