@@ -101820,29 +101820,36 @@ And Solomon did that which was evil in the sight of the Lord: he went not after 
 
 14 And you shall read this book which we have sent to you, to make confession in the house of the Lord, upon the feasts and solemn days.
 
-15 καὶ ἐρεῖτε·
+15 καὶ ἐρεῖτε· Τῷ Κυρίῳ Θεῷ ἡμῶν ἡ δικαιοσύνη, ἡμῖν δὲ αἰσχύνη τῶν προσώπων ὡς ἡ ἡμέρα αὕτη, ἀνθρώπῳ Ἰούδα καὶ τοῖς κατοικοῦσιν Ἱερουσαλὴμ
 
 15 And you shall say, To the Lord our God belongs righteousness, but to us the confusion of faces, as it is come to pass this day, to them of Juda, and to the inhabitants of Jerusalem,
 
------VERSE NOT FOUND-----
+16 καὶ τοῖς βασιλεῦσιν ἡμῶν καὶ τοῖς ἄρχουσιν ἡμῶν καὶ τοῖς ἱερεῦσιν ἡμῶν καὶ τοῖς προφήταις ἡμῶν καὶ τοῖς πατράσιν ἡμῶν,
+
 16 And to our kings, and to our princes, and to our priests, and to our prophets, and to our fathers:
 
------VERSE NOT FOUND-----
+17 ὧν ἡμάρτομεν ἔναντι Κυρίου
+
 17 For we have sinned before the Lord,
 
------VERSE NOT FOUND-----
+18 καὶ ἠπειθήσαμεν αὐτῷ καὶ οὐκ ἠκούσαμεν τῆς φωνῆς Κυρίου Θεοῦ ἡμῶν πορεύεσθαι τοῖς προστάγμασι Κυρίου, οἷς ἔδωκε κατὰ πρόσωπον ἡμῶν.
+
 18 And disobeyed him, and have not listened to the voice of the Lord our God, to walk in the commandments that he gave us openly:
 
------VERSE NOT FOUND-----
+19 ἀπὸ τῆς ἡμέρας, ἧς ἐξήγαγε Κύριος τοὺς πατέρας ἡμῶν ἐκ γῆς Αἰγύπτου, καὶ ἕως τῆς ἡμέρας ταύτης ἤμεθα ἀπειθοῦντες πρὸς Κύριον Θεὸν ἡμῶν καὶ ἐσχεδιάζομεν πρὸς τὸ μὴ ἀκούειν τῆς φωνῆς αὐτοῦ.
+
 19 Since the day that the Lord brought our forefathers out of the land of Egypt, to this present day, we have been disobedient to the Lord our God, and we have been negligent in not hearing his voice.
 
------VERSE NOT FOUND-----
+20 καὶ ἐκολλήθη εἰς ἡμᾶς τὰ κακὰ καὶ ἡ ἀρά, ἣν συνέταξε Κύριος τῷ Μωυσῇ παιδὶ αὐτοῦ ἐν ἡμέρᾳ, ᾗ ἐξήγαγε τοὺς πατέρας ἡμῶν ἐκ γῆς Αἰγύπτου δοῦναι ἡμῖν γῆν ρέουσαν γάλα καὶ μέλι ὡς ἡ ἡμέρα αὕτη.
+
 20 Therefore the evils cleaved to us, and the curse, which the Lord appointed by Moses his servant at the time that he brought our fathers out of the land of Egypt, to give us a land that flows with milk and honey, like as it is to see this day.
 
------VERSE NOT FOUND-----
+21 καὶ οὐκ ἠκούσαμεν τῆς φωνῆς Κυρίου τοῦ Θεοῦ ἡμῶν κατὰ πάντας τοὺς λόγους τῶν προφητῶν, ὧν ἀπέστειλε πρὸς ἡμᾶς,
+
 21 Nevertheless we have not listened to the voice of the Lord our God, according to all the words of the prophets, whom he sent to us:
 
------VERSE NOT FOUND-----
+22 καὶ ᾠχόμεθα ἕκαστος ἐν διανοίᾳ καρδίας αὐτοῦ τῆς πονηρᾶς ἐργάζεσθαι θεοῖς ἑτέροις, ποιῆσαι τὰ κακὰ κατ᾿ ὀφθαλμοὺς Κυρίου Θεοῦ ἡμῶν.
+
 22 But every man followed the imagination of his own wicked heart, to serve strange gods, and to do evil in the sight of the Lord our God.
 
 ### ΒΑΡΟΥΧ Baruch 2
