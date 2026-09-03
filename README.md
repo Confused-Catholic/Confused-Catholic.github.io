@@ -1,6 +1,6 @@
 # Confused Catholic website
 
-[https://www.confusedcatholic.com](http://www.coonfusedcatholic.com)
+[https://www.confusedcatholic.com](http://www.confusedcatholic.com)
 
 ## Requesting edits to text
 
