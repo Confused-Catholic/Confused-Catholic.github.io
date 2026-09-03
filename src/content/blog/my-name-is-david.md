@@ -11,6 +11,7 @@ tags:
   - Byzantine Catholic
   - Roman Catholic
 heroImage: "https://github.com/Confused-Catholic/images/raw/main/20260601_231805.jpg"
+heroImageAlt: "An icon corner with candles lit"
 ---
 
 It's 1:30a.m. I just submitted an article to my editor. I should probably go to bed. Instead, I turn on a light. I light a couple dollar store prayer candles. I light a stick of unclean incense given to me as a gift. I begin to intone. 
