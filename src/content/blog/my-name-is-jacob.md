@@ -9,6 +9,7 @@ tags:
   - Spiritual journeys
   - Daddy issues
 heroImage: "https://github.com/Confused-Catholic/images/raw/main/20260528_172635.jpg"
+heroImageAlt: "a set of meat cutting knives"
 ---
 
 
