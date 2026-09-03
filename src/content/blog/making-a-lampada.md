@@ -13,6 +13,7 @@ tags:
   - home altar
   - oil lamp
 heroImage: "https://github.com/Confused-Catholic/images/raw/main/lampada-in-icon-corner.jpg"
+heroImageAlt: "A lampada illuminating a home alatar"
 ---
 
 Today, let's learn how to make a lampada. I first wanted to make one when learning how to set up a prayer corner. Not to get into too much detail, but whole room electric lighting is loud. I know that might not make much sense. It drowns things out. Sometimes you only need a little bit of light; natural light. Electric lighting, in all forms, is a good imitation but it's just not the real thing.
