@@ -15,6 +15,7 @@ tags:
   - Galatians
   - Samuel
 heroImage: "https://github.com/Confused-Catholic/images/raw/main/c847aa95-24f4-4511-b9f9-044ca86f8890_4000x2360.webp"
+heroImageAlt: "St. Paul's letter to the Galatians from the New American Bible"
 ---
 
 > NOTE: I began writing this piece in 2025. It sat in a stack of unpublished drafts for nearly a year. I have made minimal edits in order to preserve its original tone.
