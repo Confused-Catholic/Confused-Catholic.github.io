@@ -1,8 +1,8 @@
 ---
-title: "Homily 8 on the Gospel of John"
-description: "St. John Chrysostom's eighth homily on the Gospel of John."
+title: "Homily 9 on the Gospel of John"
+description: "St. John Chrysostom's ninth homily on the Gospel of John."
 author: "John Chrysostom"
-homilyNumber: 7
+homilyNumber: 9
 translator: "Philip Schaff"
 pubDate: 2026-09-05
 heroImage: "https://www.confusedcatholic.com/john-chrysostom.jpg"
