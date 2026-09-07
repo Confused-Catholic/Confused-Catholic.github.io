@@ -11,7 +11,7 @@ type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.props;
 
-const allPosts = await getCollection('');
+const allPosts = await getCollection('patristics');
 
 const related = allPosts
 	.filter((p) => p.data.title !== title)
