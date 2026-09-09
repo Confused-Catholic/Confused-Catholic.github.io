@@ -8,6 +8,7 @@ import remarkToc from 'remark-toc';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://www.confusedcatholic.com',
+	trailingSlash: 'always',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		remarkPlugins: [[remarkToc, {maxDepth: 2}]]
