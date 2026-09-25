@@ -1,3 +1,4 @@
+---
 title: "Homily 17 on the Gospel of John"
 description: "St. John Chrysostom's seventeenth homily on the Gospel of John."
 author: "John Chrysostom"
